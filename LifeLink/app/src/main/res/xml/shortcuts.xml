@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <capability android:name="com.life.lifelink.CALL_AMBULANCE">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.life.lifelink"
+            android:targetClass="com.life.lifelink.MainActivity">
+        </intent>
+    </capability>
+</shortcuts>

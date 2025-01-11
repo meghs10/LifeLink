@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GradientText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="EmergencyHeaderText">
+        <item name="android:fontFamily">@font/poppins_bold_file</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Location Title Text Style -->
+    <style name="LocationTitleText">
+        <item name="android:fontFamily">@font/poppins_semi_bold_file</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Search Input Style -->
+    <style name="SearchInputText">
+        <item name="android:fontFamily">@font/poppins_medium_file</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Call Ambulance Button Style -->
+    <style name="CallAmbulanceButton">
+        <item name="android:fontFamily">@font/poppins_bold_file</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ModernNavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextColor">@color/white</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextAppearance">@style/NavigationTextAppearance</item>
+    </style>
+
+    <style name="NavigationTextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:background">@drawable/nav_item_background</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="HealthRecordCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+
+    <style name="SubSectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.LifeLinkBloodbank" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/blood_red</item>
+        <item name="colorPrimaryVariant">@color/blood_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/blood_red</item>
+        <item name="colorSecondaryVariant">@color/blood_red_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/blood_red</item>
+
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.LifeLinkBloodbank.Starting" parent="Theme.LifeLinkBloodbank">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/blood_red</item>
+    </style>
+</resources>

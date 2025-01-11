@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.LifeLinkHospitals" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/surgical_green</item>
+        <item name="colorPrimaryVariant">@color/surgical_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/surgical_green</item>
+        <item name="colorSecondaryVariant">@color/surgical_green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/surgical_green</item>
+    </style>
+
+    <style name="Theme.LifeLinkHospitals.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="com.life.lifelink.CALL_AMBULANCE">
+        <fulfillment
+            urlTemplate="https://lifelink.page.link/ambulance"
+            fulfillmentMode="actions.fulfillment.DEEPLINK"/>
+    </action>
+</actions>

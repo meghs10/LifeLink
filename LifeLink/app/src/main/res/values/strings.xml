@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LifeLink</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="call_ambulance_action">Call ambulance with LifeLink</string>
+    <string name="location_permission_needed">Location permission is needed for emergency services</string>
+    <string name="error_getting_location">Error getting location</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LifeLinkHospitals</string>
+    <string name="age_format">Age: %d years</string>
+    <string name="height_format">Height: %.1f cm</string>
+    <string name="weight_format">Weight: %.1f kg</string>
+    <string name="organ_donor_format">Organ Donor: %s</string>
+</resources>
