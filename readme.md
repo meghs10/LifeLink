@@ -111,9 +111,16 @@ LifeLink is a comprehensive emergency medical service system consisting of multi
 
 2. **Dockerfile**
 ```dockerfile
+FROM maven:3.8.4-openjdk-17-slim AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
+
+# Run stage
 FROM eclipse-temurin:17-jdk-alpine
 VOLUME /tmp
-COPY target/*.jar app.jar
+COPY --from=build /app/target/*.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```
 
@@ -169,7 +176,7 @@ services:
 ### Backend Setup in local
 ```bash
 # Clone repository
-git clone https://github.com/milky-way-1/lifelinkbackend.git
+git clone https://github.com/Meghana-123-capstone/Lifelink.git
 
 # Navigate to backend directory
 cd lifelinkbackend
