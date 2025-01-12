@@ -1,13 +1,13 @@
 
-# LIFELINK - Emergency Medical Service System
+#LIFELINK - Emergency Medical Service System
 
-## Overview
+##Overview
 
-QuickAmbulance is a comprehensive emergency medical service system consisting of multiple Android applications and a Spring Boot backend. The system facilitates quick ambulance booking, hospital coordination, and blood bank management during medical emergencies.
+LifeLink is a comprehensive emergency medical service system consisting of multiple Android applications and a Spring Boot backend. The system facilitates quick ambulance booking, hospital coordination, and blood bank management during medical emergencies.
 
-## Features
+#Features
 
-### User App
+###User App
 
 - Emergency ambulance booking
 
@@ -22,7 +22,7 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 - CPR instructions in case of emergency
 
 
-### Driver App
+###Driver App
 
 - Real-time booking notifications
 
@@ -32,7 +32,7 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 
 - Profile management
 
-### Hospital App
+###Hospital App
 
 - Emergency case notifications
 
@@ -42,16 +42,16 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 
 - Profile management
 
-### Blood Bank App
+###Blood Bank App
 
 - Blood request management
 
 - Emergency notifications
 
 
-## Technical Stack
+##Technical Stack
 
-### Mobile Applications
+###Mobile Applications
 
 - **Platform**: Android (Java)
 
@@ -71,7 +71,7 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 
 - **Database**: MongoDB Atlas
 
-### APIs & Services Used
+###APIs & Services Used
 
 - Google Maps SDK for Android
 
@@ -85,7 +85,7 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 
 - MongoDB Atlas
 
-### Security
+###Security
 
 - JWT Authentication
 
@@ -95,9 +95,9 @@ QuickAmbulance is a comprehensive emergency medical service system consisting of
 
 - Role-based access control
 
-## Deployment Guide
+##Deployment Guide
 
-### Backend Deployment on Render
+###Backend Deployment on Render
 
 1. **Prerequisites**
 
@@ -152,7 +152,7 @@ services:
 
    - Deploy
 
-### MongoDB Atlas Setup
+###MongoDB Atlas Setup
 
 1. Create cluster
 
@@ -164,25 +164,25 @@ services:
 
 5. Configure in application
 
-## Installation & Setup
+##Installation & Setup
 
-### Backend Setup in local
+###Backend Setup in local
 ```bash
-# Clone repository
+#Clone repository
 git clone https://github.com/milky-way-1/lifelinkbackend.git
 
-# Navigate to backend directory
+#Navigate to backend directory
 cd lifelinkbackend
 
-# Install dependencies
+#Install dependencies
 mvn install
 
-# Run application
+#Run application
 mvn spring-boot:run
 ```
 
 
-### Android Apps Setup
+###Android Apps Setup
 
 1. Open project in Android Studio
 
@@ -192,14 +192,14 @@ mvn spring-boot:run
 
 4. Build and run
 
-## Environment Variables
+##Environment Variables
 ```
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database
 JWT_SECRET=your_jwt_secret_key
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
 
-## About Render
+##About Render
 
 Render is a unified cloud platform that helps build and run applications and websites with free TLS certificates, global CDN, private networks, and auto-deploy from Git. 
 
@@ -215,6 +215,6 @@ Render is a unified cloud platform that helps build and run applications and web
 
 - Environment variable management
 
-## Contributing
+##Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
